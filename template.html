@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin:0;
+        padding:0;
+        text-align: center;
+      }
+    
+
+      #container {
+        font-family: 'Ubuntu' ,sans-serif;
+        font-size:14px;
+        color:black;
+        line-height:24px;
+        background: rgba(255,162,0,0.05);
+      }
+
+      header {
+        background-color: #021344;
+        padding: 20px 20px;
+        text-align: center;
+        border-bottom: 5px solid #FFA200;
+      }
+
+      .btn{
+        font-weight: 500;
+        display: inline-block;
+        padding: 5px 30px;
+        font-size: 13px;
+        border: 1px solid rgba(255,255,255,.5);
+        transition: .2s;
+        background-color: #021344;
+        color: #fff;
+      }
+
+      #body {
+        padding: 20px 15px;
+        padding-top: 40px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .section__box{
+        padding: 20px;
+        background: rgba(255,255,255,.7);
+        backdrop-filter: saturate(90%) blur(2px);
+        border: 1px solid #fff;
+      }
+      
+      h1{
+        font-size: 28px;
+        line-height: 36px;
+        display: inline-block;
+        color: #021344;
+        text-transform: uppercase;
+      }
+
+      h2{
+        font-size: 24px;
+        line-height: 28px;
+        color:black;
+      }
+
+      h1, h2 {
+        font-weight: normal;
+      }
+
+      h1, h2, h3, h4 {
+        margin: 0px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      a{
+        text-decoration: none;
+      }
+
+      p{
+        font-size: 16px;
+        line-height: 28px;
+      }
+
+      footer {
+        padding: 30px 20px;
+        background-color: #021344;
+        border-bottom: 20px solid #FFA200;
+        color: white;
+      }
+    
+      footer .footer__flex{
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    
+      footer .footer__socials{
+        display: flex;
+      }
+
+      footer .footer__socials .footer__social{
+        padding: 5px 10px;
+      }
+
+      footer .footer__socials .footer__social img{
+        width: 30px;
+      }
+
+      footer a{
+        color: white;
+        text-decoration: underline;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header><a href="#"><img src="img/icons/logo-resit-white.png" style="width:70px;vertical-align:middle;"></a></header>
+      <div id="body">
+        <section>
+            <h1>Hola, Juan Pablo Martinez</h1>
+
+            <p>La Transformación Digital es un proceso constante de mejoras innovadoras en los procesos de las empresas.</p>
+            <h3>¡En Resit contamos con un equipo experto que te puede ayudar en tu transformación!</h3>
+
+            <div class="section__box">
+              <h2> Contáctanos</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aut neque tempore iure dolores est culpa asperiores, veniam consequatur.</p>
+              <a href="" class="btn">Contactar</a>
+            </div>
+
+
+        </section>
+      </div>
+      <footer>
+        <div class="footer__flex">
+          <div class="footer__left">
+            <p>Si necesitas ayuda, escribenos <a href="#">contacto@resit.cl</a></p>
+          </div>
+          <div class="footer__right">
+            <div class="footer__socials">
+              <div class="footer__social">
+                <a href=""><img src="img/icons/logo-facebook.png" alt=""></a>
+              </div>
+              <div class="footer__social">
+                <a href=""><img src="img/icons/logo-linkedin.png" alt=""></a>
+              </div>
+              <div class="footer__social">
+                <a href=""><img src="img/icons/logo-instagram.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
